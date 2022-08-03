@@ -64,6 +64,12 @@ Inicie o servidor
 
 #### Retornará os produtores com maior intervalo entre dois prêmios consecutivos, e o que obteve dois prêmios mais rápido
 
+#### O projeto está configurado para porta 8080
+
 ```http
-  GET http://localhost:8080/api/producer/producers/winner-successive-summary
+  GET /api/producer/producers/winner-successive-summary
+```
+
+```http
+  curl -v http://localhost:8080/api/producer/producers/winner-successive-summary
 ```
