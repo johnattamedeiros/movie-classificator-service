@@ -38,7 +38,7 @@ Para rodar os testes, rode o seguinte comando
 Clone o projeto
 
 ```bash
-  git clone https://link-para-o-projeto
+  git clone https://github.com/johnattamedeiros/movie-classificator-service.git
 ```
 
 Entre no diretório do projeto
