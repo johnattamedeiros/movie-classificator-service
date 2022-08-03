@@ -65,5 +65,5 @@ Inicie o servidor
 #### Retornará os produtores com maior intervalo entre dois prêmios consecutivos, e o que obteve dois prêmios mais rápido
 
 ```http
-  GET /api/producer/producers/winner-successive-summary
+  GET http://localhost:8080/api/producer/producers/winner-successive-summary
 ```
