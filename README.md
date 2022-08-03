@@ -2,7 +2,7 @@
 # Movie Classificator Service
 
 Um microsserviço que classifica e permite a consulta dos produtores que tem maior e menor intervalo
-de prêmios conscutivos da categoria Pior Filme do Golden Raspberry Awards.
+de prêmios consecutivos da categoria Pior Filme do Golden Raspberry Awards.
 
 
 #### OBS: O arquivo para leitura deve estar na pasta csv localizada na raiz do projeto e ter obrigatoriamente o nome movielist.csv 
