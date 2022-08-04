@@ -83,7 +83,7 @@ public class MovieImportService {
                 Producer producer = getProducer(producerName);
 
                 if (producer.getName() == null) {
-                    producer.setName(producerName);
+                    producer.setName(producerName.trim());
                     producerRepository.save(producer);
                 }
 
@@ -99,7 +99,7 @@ public class MovieImportService {
     }
 
     private Producer getProducer(String name) {
-        Producer producerFound = producerRepository.findByName(name);
+        Producer producerFound = producerRepository.findByName(name.trim());
         if (producerFound == null) {
             producerFound = new Producer();
         }
